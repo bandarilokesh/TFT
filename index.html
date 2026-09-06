@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFT 3.0 — Trade Like Smart Money</title>
+    <meta name="description" content="1-to-1 trading mentorship program focused on Forex, Futures and Advanced Hybrid Smart Money Concepts (SMC).">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 1. NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="TFT Logo" class="logo-img">
+                <span class="logo-text">TFT 3.0</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#program">Program</a>
+                <a href="#curriculum">Curriculum</a>
+                <a href="#mentorship">Mentorship</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            
+            <div class="nav-cta-wrapper">
+                <a href="https://wa.me/917729899208?text=Hi,%20I'm%20interested%20in%20TFT%203.0%20mentorship.%20I'd%20like%20to%20know%20more%20about%20the%20September%20batch." target="_blank" class="btn btn-primary nav-cta">Secure Your Slot &rarr;</a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#program" class="mobile-link">Program</a>
+            <a href="#curriculum" class="mobile-link">Curriculum</a>
+            <a href="#mentorship" class="mobile-link">Mentorship</a>
+            <a href="#pricing" class="mobile-link">Pricing</a>
+            <a href="#faq" class="mobile-link">FAQ</a>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <header class="hero" id="program">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge glow">
+                    <span class="badge-dot"></span>
+                    TFT 3.0 &bull; SEPTEMBER BATCH
+                </div>
+                
+                <h1 class="hero-title">
+                    TRADE WITH A <span class="text-accent">SYSTEM</span>.<br>
+                    NOT WITH <span class="text-accent">EMOTION</span>.
+                </h1>
+                
+                <p class="hero-subtitle">
+                    1-to-1 Smart Money mentorship designed to help you understand market structure, build precision entries and develop a repeatable trading process.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="https://wa.me/917729899208?text=Hi,%20I'm%20interested%20in%20TFT%203.0%20mentorship.%20I'd%20like%20to%20know%20more%20about%20the%20September%20batch." target="_blank" class="btn btn-primary btn-large glow-btn">
+                        APPLY FOR MENTORSHIP &rarr;
+                    </a>
+                    <a href="#curriculum" class="btn btn-secondary btn-large">
+                        VIEW PROGRAM
+                    </a>
+                </div>
+                
+                <p class="hero-scarcity text-accent-light">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    Only 2 slots available for the September batch
+                </p>
+                
+                <p class="hero-disclaimer">
+                    Educational mentorship only. Trading involves substantial risk. No profit guarantees.
+                </p>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="chart-mockup glass-panel">
+                    <div class="chart-header">
+                        <div class="pair">EUR/USD</div>
+                        <div class="timeframe">15M</div>
+                        <div class="status live">LIVE</div>
+                    </div>
+                    <div class="chart-body">
+                        <!-- Simulated candlestick chart visual -->
+                        <div class="chart-lines">
+                            <div class="line horizontal liquidity-line" style="top: 20%;"><span>Buy Side Liquidity</span></div>
+                            <div class="line horizontal entry-line" style="top: 60%;"><span>Entry Zone</span></div>
+                            <div class="line horizontal stop-line" style="top: 75%;"><span>Invalidation</span></div>
+                        </div>
+                        <div class="candles">
+                            <div class="candle down" style="height: 40px; left: 10%; bottom: 50%;"></div>
+                            <div class="candle up" style="height: 25px; left: 20%; bottom: 45%;"></div>
+                            <div class="candle down" style="height: 60px; left: 30%; bottom: 40%;"></div>
+                            <div class="candle down" style="height: 80px; left: 40%; bottom: 25%;"></div>
+                            <div class="candle up" style="height: 30px; left: 50%; bottom: 20%;"></div>
+                            <div class="candle up" style="height: 70px; left: 60%; bottom: 25%; box-shadow: 0 0 15px var(--accent-yellow);"></div>
+                            <div class="candle up" style="height: 50px; left: 70%; bottom: 45%;"></div>
+                            <div class="candle up" style="height: 90px; left: 80%; bottom: 55%;"></div>
+                            <div class="candle up" style="height: 40px; left: 90%; bottom: 75%;"></div>
+                        </div>
+                        <div class="structure-marker chcoh" style="left: 45%; bottom: 35%;">CHoCH</div>
+                        <div class="structure-marker bos" style="left: 75%; bottom: 60%;">BOS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. TRUST / POSITIONING BAR -->
+    <section class="trust-bar border-top border-bottom">
+        <div class="container trust-container">
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <div class="trust-text">
+                    <strong>1-to-1</strong><br>
+                    PERSONALIZED MENTORSHIP
+                </div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                </div>
+                <div class="trust-text">
+                    <strong>~2 MONTHS</strong><br>
+                    STRUCTURED PROGRAM
+                </div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                </div>
+                <div class="trust-text">
+                    <strong>WEEKLY</strong><br>
+                    LIVE SESSION
+                </div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div class="trust-text">
+                    <strong>PRIVATE</strong><br>
+                    COMMUNITY
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PROBLEM -> SOLUTION SECTION -->
+    <section class="problem-solution section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">
+                    STOP CHASING SETUPS.<br>
+                    <span class="text-accent">START UNDERSTANDING THE MARKET.</span>
+                </h2>
+            </div>
+            
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">&times;</div>
+                    <p>Entering without confirmation</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">&times;</div>
+                    <p>Switching strategies constantly</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">&times;</div>
+                    <p>Poor risk management</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">&times;</div>
+                    <p>Emotional decisions</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">&times;</div>
+                    <p>No structured trading plan</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">&times;</div>
+                    <p>Difficulty understanding market context</p>
+                </div>
+            </div>
+
+            <div class="solution-transition">
+                <div class="vertical-line"></div>
+                <h3 class="transition-text">
+                    TFT 3.0 gives you a structured framework for reading the market and executing with discipline.
+                </h3>
+            </div>
+
+            <div class="transformation-container">
+                <div class="transform-row">
+                    <span class="bad">CHAOS</span>
+                    <span class="arrow">&rarr;</span>
+                    <span class="good">STRUCTURE</span>
+                </div>
+                <div class="transform-row">
+                    <span class="bad">EMOTION</span>
+                    <span class="arrow">&rarr;</span>
+                    <span class="good">PROCESS</span>
+                </div>
+                <div class="transform-row">
+                    <span class="bad">RANDOM ENTRIES</span>
+                    <span class="arrow">&rarr;</span>
+                    <span class="good text-accent">PRECISION EXECUTION</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. WHAT YOU'LL LEARN -->
+    <section class="curriculum section-padding bg-secondary" id="curriculum">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">WHAT YOU'LL <span class="text-accent">MASTER</span></h2>
+            </div>
+            
+            <div class="curriculum-grid">
+                <div class="curriculum-card glass-panel">
+                    <div class="card-number">01</div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <h3>Forex & Futures</h3>
+                    <p>From foundational concepts to advanced execution.</p>
+                </div>
+                
+                <div class="curriculum-card glass-panel">
+                    <div class="card-number">02</div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <h3>Advanced Hybrid SMC</h3>
+                    <p>Institutional concepts, liquidity and price delivery.</p>
+                </div>
+                
+                <div class="curriculum-card glass-panel">
+                    <div class="card-number">03</div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <h3>Top-Down Analysis</h3>
+                    <p>Understand higher-timeframe context and market structure.</p>
+                </div>
+                
+                <div class="curriculum-card glass-panel">
+                    <div class="card-number">04</div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                    </div>
+                    <h3>Precision Entries</h3>
+                    <p>Build structured entry, stop-loss and target frameworks.</p>
+                </div>
+                
+                <div class="curriculum-card glass-panel">
+                    <div class="card-number">05</div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h3>Fundamental Analysis</h3>
+                    <p>Understand how news and macro events can influence price.</p>
+                </div>
+                
+                <div class="curriculum-card glass-panel">
+                    <div class="card-number">06</div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Prop Firm Strategy</h3>
+                    <p>Understand the challenge process, risk framework and execution discipline.</p>
+                </div>
+                
+                <div class="curriculum-card glass-panel">
+                    <div class="card-number">07</div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Live Trade Breakdown</h3>
+                    <p>Study real market scenarios and execution logic.</p>
+                </div>
+                
+                <div class="curriculum-card glass-panel">
+                    <div class="card-number">08</div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Mindset & Risk Management</h3>
+                    <p>Develop consistency, discipline and controlled risk.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. THE TFT METHOD -->
+    <section class="method section-padding border-bottom">
+        <div class="container text-center">
+            <h2 class="section-title">A PROCESS YOU CAN <span class="text-accent">REPEAT</span>.</h2>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-dot"></div>
+                    <div class="step-number">01</div>
+                    <div class="step-title">MARKET CONTEXT</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-dot"></div>
+                    <div class="step-number">02</div>
+                    <div class="step-title">MARKET STRUCTURE</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-dot"></div>
+                    <div class="step-number">03</div>
+                    <div class="step-title">LIQUIDITY</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-dot"></div>
+                    <div class="step-number">04</div>
+                    <div class="step-title">SETUP</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-dot"></div>
+                    <div class="step-number">05</div>
+                    <div class="step-title">PRECISION ENTRY</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-dot"></div>
+                    <div class="step-number">06</div>
+                    <div class="step-title">RISK MANAGEMENT</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-dot"></div>
+                    <div class="step-number">07</div>
+                    <div class="step-title">EXECUTION & REVIEW</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. 1-TO-1 MENTORSHIP -->
+    <section class="mentorship section-padding" id="mentorship">
+        <div class="container">
+            <div class="split-layout">
+                <div class="split-content">
+                    <h2 class="section-title">
+                        YOU DON'T GET A GENERIC COURSE.<br>
+                        <span class="text-accent">YOU GET A MENTORSHIP BUILT AROUND YOU.</span>
+                    </h2>
+                    
+                    <ul class="benefits-list">
+                        <li><span class="check-icon">&check;</span> 1-to-1 personalized mentorship</li>
+                        <li><span class="check-icon">&check;</span> Personal screen-sharing sessions</li>
+                        <li><span class="check-icon">&check;</span> Customized trading plan</li>
+                        <li><span class="check-icon">&check;</span> Direct access to mentor for doubts</li>
+                        <li><span class="check-icon">&check;</span> Regular performance reviews</li>
+                        <li><span class="check-icon">&check;</span> Trading performance optimization</li>
+                        <li><span class="check-icon">&check;</span> WhatsApp support</li>
+                        <li><span class="check-icon">&check;</span> Private Discord community</li>
+                        <li><span class="check-icon">&check;</span> Weekly live session</li>
+                    </ul>
+                    
+                    <div class="duration-badge">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" style="margin-right: 8px; vertical-align: middle;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        Duration: Approximately 2 months
+                    </div>
+                    
+                    <a href="https://wa.me/917729899208?text=Hi,%20I'm%20interested%20in%20TFT%203.0%20mentorship.%20I'd%20like%20to%20know%20more%20about%20the%20September%20batch." target="_blank" class="btn btn-primary btn-large mt-4 glow-btn">
+                        GET PERSONALIZED MENTORSHIP &rarr;
+                    </a>
+                </div>
+                
+                <div class="split-visual">
+                    <div class="mockup-frame glass-panel">
+                        <div class="mockup-header">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                            <div class="mockup-title">Live 1-to-1 Session</div>
+                        </div>
+                        <div class="mockup-body session-mockup">
+                            <div class="video-grid">
+                                <div class="main-video">
+                                    <div class="chart-minimal">
+                                        <div class="chart-lines">
+                                            <div class="line horizontal entry-line" style="top: 40%;"><span>Fair Value Gap</span></div>
+                                            <div class="line horizontal liquidity-line" style="top: 80%;"><span>Sell Side Liquidity</span></div>
+                                        </div>
+                                        <div class="candles small">
+                                            <div class="candle down" style="height: 30px; left: 20%; bottom: 60%;"></div>
+                                            <div class="candle down" style="height: 50px; left: 35%; bottom: 40%;"></div>
+                                            <div class="candle up" style="height: 20px; left: 50%; bottom: 35%;"></div>
+                                            <div class="candle down" style="height: 70px; left: 65%; bottom: 10%;"></div>
+                                        </div>
+                                        <div class="cursor-pointer">
+                                            <svg viewBox="0 0 24 24" fill="var(--text-primary)" width="24" height="24"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pip-video">
+                                    <div class="pip-user"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. WHAT THE EXPERIENCE LOOKS LIKE -->
+    <section class="experience section-padding bg-secondary">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">THE MENTORSHIP <span class="text-accent">JOURNEY</span></h2>
+            </div>
+            
+            <div class="journey-container">
+                <div class="journey-step glass-panel">
+                    <div class="step-num">01</div>
+                    <h3>ASSESS</h3>
+                    <p>Understand your current knowledge, trading style and goals.</p>
+                </div>
+                <div class="journey-connector"></div>
+                <div class="journey-step glass-panel">
+                    <div class="step-num">02</div>
+                    <h3>BUILD</h3>
+                    <p>Create a personalized trading framework.</p>
+                </div>
+                <div class="journey-connector"></div>
+                <div class="journey-step glass-panel">
+                    <div class="step-num">03</div>
+                    <h3>EXECUTE</h3>
+                    <p>Analyze markets and practice structured execution.</p>
+                </div>
+                <div class="journey-connector"></div>
+                <div class="journey-step glass-panel">
+                    <div class="step-num">04</div>
+                    <h3>REFINE</h3>
+                    <p>Review performance, identify mistakes and optimize.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. LIVE TRADING / SCREEN-SHARING SECTION -->
+    <section class="live-trading section-padding">
+        <div class="container text-center">
+            <h2 class="section-title">
+                SEE THE ANALYSIS.<br>
+                <span class="text-accent">UNDERSTAND THE REASONING.</span>
+            </h2>
+            <p class="section-subtitle">
+                Learn how market context, structure, liquidity and risk management come together before an execution is considered.
+            </p>
+            
+            <div class="large-chart-visual glass-panel mt-5">
+                <div class="chart-header">
+                    <div class="pair">XAU/USD</div>
+                    <div class="timeframe">5M</div>
+                    <div class="trade-stats">
+                        <span class="rr-ratio">RR 1:3.5</span>
+                    </div>
+                </div>
+                <div class="chart-body large">
+                    <div class="chart-lines">
+                        <div class="line horizontal" style="top: 25%; border-color: rgba(255, 255, 255, 0.2);"><span style="color: rgba(255,255,255,0.5)">HTF POI</span></div>
+                        <div class="line horizontal stop-line" style="top: 40%;"><span>Stop Loss</span></div>
+                        <div class="line horizontal entry-line" style="top: 55%;"><span>Entry Area</span></div>
+                        <div class="line horizontal tp-line" style="top: 85%;"><span>Target (Liquidity)</span></div>
+                    </div>
+                    
+                    <div class="trade-box short" style="top: 40%; height: 45%; left: 60%; width: 25%;">
+                        <div class="risk-zone" style="height: 33.33%;"></div>
+                        <div class="reward-zone" style="height: 66.67%;"></div>
+                    </div>
+                    
+                    <div class="candles">
+                        <!-- Upward trend into POI -->
+                        <div class="candle up" style="height: 30px; left: 10%; bottom: 30%;"></div>
+                        <div class="candle up" style="height: 50px; left: 15%; bottom: 40%;"></div>
+                        <div class="candle down" style="height: 20px; left: 20%; bottom: 45%;"></div>
+                        <div class="candle up" style="height: 60px; left: 25%; bottom: 50%;"></div>
+                        <div class="candle up" style="height: 40px; left: 30%; bottom: 65%;"></div>
+                        <!-- Tap into POI, liquidity sweep -->
+                        <div class="candle up sweep" style="height: 35px; left: 35%; bottom: 75%;"></div>
+                        <!-- Displacement down -->
+                        <div class="candle down displace" style="height: 90px; left: 40%; bottom: 50%;"></div>
+                        <div class="candle down" style="height: 40px; left: 45%; bottom: 40%;"></div>
+                        <!-- Retracement to entry -->
+                        <div class="candle up" style="height: 30px; left: 50%; bottom: 45%;"></div>
+                        <div class="candle up" style="height: 25px; left: 55%; bottom: 52%;"></div>
+                        <!-- Execution and move down -->
+                        <div class="candle down" style="height: 60px; left: 65%; bottom: 35%;"></div>
+                        <div class="candle down" style="height: 80px; left: 70%; bottom: 15%;"></div>
+                        <div class="candle up" style="height: 20px; left: 75%; bottom: 10%;"></div>
+                        <div class="candle down" style="height: 40px; left: 80%; bottom: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. PRICING SECTION -->
+    <section class="pricing section-padding bg-secondary border-top" id="pricing">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">CHOOSE YOUR <span class="text-accent">ACCESS</span></h2>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Option 1 -->
+                <div class="pricing-card glass-panel">
+                    <h3 class="pricing-title">TFT 3.0<br><span>LIVE MENTORSHIP</span></h3>
+                    <div class="pricing-amount">&rupee;14,999</div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">&check;</span> Live mentorship sessions</li>
+                        <li><span class="check-icon">&check;</span> 1-to-1 guidance</li>
+                        <li><span class="check-icon">&check;</span> Personalized screen sharing</li>
+                        <li><span class="check-icon">&check;</span> Customized trading plan</li>
+                        <li><span class="check-icon">&check;</span> WhatsApp support</li>
+                        <li><span class="check-icon">&check;</span> Private Discord community</li>
+                        <li><span class="check-icon">&check;</span> Performance review</li>
+                    </ul>
+                    <a href="https://wa.me/917729899208?text=Hi,%20I'm%20interested%20in%20TFT%203.0%20Live%20Mentorship%20(%E2%82%B914,999)." target="_blank" class="btn btn-outline btn-full">
+                        CHOOSE LIVE MENTORSHIP &rarr;
+                    </a>
+                </div>
+                
+                <!-- Option 2 -->
+                <div class="pricing-card glass-panel highlight">
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <h3 class="pricing-title">TFT 3.0<br><span>MENTORSHIP + RECORDINGS</span></h3>
+                    <div class="pricing-amount">&rupee;16,999</div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">&check;</span> <strong>Everything in Live Mentorship</strong></li>
+                        <li><span class="check-icon">&check;</span> Session recordings</li>
+                        <li><span class="check-icon">&check;</span> Recording access</li>
+                    </ul>
+                    <a href="https://wa.me/917729899208?text=Hi,%20I'm%20interested%20in%20TFT%203.0%20Mentorship%20+%20Recordings%20(%E2%82%B916,999)." target="_blank" class="btn btn-primary btn-full glow-btn">
+                        CHOOSE THIS PLAN &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. WHY TFT 3.0 -->
+    <section class="features section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">WHY <span class="text-accent">TFT 3.0</span></h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h4>PERSONALIZED</h4>
+                    <p>Not a one-size-fits-all course. Tailored to your learning speed and style.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>STRUCTURED</h4>
+                    <p>A defined framework instead of random setups. Know exactly what to look for.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>PRACTICAL</h4>
+                    <p>Learn through live analysis and real market scenarios, not just theory.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>ACCOUNTABLE</h4>
+                    <p>Regular performance review and optimization to keep you on track.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>DIRECT ACCESS</h4>
+                    <p>Get your questions answered through direct mentor support.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>COMMUNITY</h4>
+                    <p>Private Discord environment for continued interaction with serious traders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. SOCIAL PROOF ALT -->
+    <section class="proof section-padding border-top border-bottom bg-secondary text-center">
+        <div class="container">
+            <h2 class="section-title">BUILT AROUND <span class="text-accent">PROCESS</span>, NOT PROMISES</h2>
+            <p class="section-subtitle mt-4" style="max-width: 700px; margin: 0 auto; font-size: 1.25rem;">
+                The objective is not to promise a profitable trade.<br>
+                The objective is to build a disciplined process for analyzing and managing trades.
+            </p>
+        </div>
+    </section>
+
+    <!-- 13. WHO THIS IS FOR -->
+    <section class="who-for section-padding">
+        <div class="container">
+            <div class="two-col-grid">
+                <div class="for-col good glass-panel">
+                    <h3>THIS IS FOR:</h3>
+                    <ul>
+                        <li><span class="icon">&check;</span> Traders who want structured guidance</li>
+                        <li><span class="icon">&check;</span> Beginners who want a clear foundation</li>
+                        <li><span class="icon">&check;</span> Traders struggling with consistency</li>
+                        <li><span class="icon">&check;</span> Traders wanting deeper SMC understanding</li>
+                        <li><span class="icon">&check;</span> Traders looking to improve risk management</li>
+                        <li><span class="icon">&check;</span> Traders who want personalized feedback</li>
+                    </ul>
+                </div>
+                <div class="for-col bad glass-panel">
+                    <h3>NOT FOR:</h3>
+                    <ul>
+                        <li><span class="icon">&times;</span> People looking for guaranteed profits</li>
+                        <li><span class="icon">&times;</span> Signal-only subscribers</li>
+                        <li><span class="icon">&times;</span> Get-rich-quick expectations</li>
+                        <li><span class="icon">&times;</span> Traders unwilling to manage risk</li>
+                        <li><span class="icon">&times;</span> Anyone expecting trading to be effortless</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 14. SEPTEMBER BATCH URGENCY -->
+    <section class="urgency section-padding">
+        <div class="container text-center">
+            <div class="badge glow mb-4">
+                <span class="badge-dot"></span> SEPTEMBER BATCH
+            </div>
+            <h2 class="section-title text-accent">ONLY 2 MENTORSHIP SLOTS AVAILABLE</h2>
+            <p class="section-subtitle" style="max-width: 600px; margin: 1.5rem auto;">
+                Because TFT 3.0 is structured around personalized mentorship and direct interaction, availability is intentionally limited.
+            </p>
+            <a href="https://wa.me/917729899208?text=Hi,%20I'm%20interested%20in%20TFT%203.0%20mentorship.%20I'd%20like%20to%20secure%20one%20of%20the%20September%20slots." target="_blank" class="btn btn-primary btn-large mt-4 glow-btn">
+                SECURE YOUR SLOT &rarr;
+            </a>
+        </div>
+    </section>
+
+    <!-- 15. FAQ -->
+    <section class="faq section-padding bg-secondary" id="faq">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">FREQUENTLY ASKED <span class="text-accent">QUESTIONS</span></h2>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">What is TFT 3.0? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>TFT 3.0 is a 1-to-1 trading mentorship program focused on Forex, Futures, and Advanced Hybrid Smart Money Concepts (SMC). It's designed to help you build a structured, repeatable trading process.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How long is the mentorship? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>The core mentorship program lasts for approximately 2 months, covering all theoretical concepts, live sessions, and practical execution frameworks.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is this 1-to-1 mentorship? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Yes. The program is built around 1-to-1 personalized guidance, including screen-sharing sessions tailored to your pace and learning style.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What markets are covered? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>We primarily focus on Forex and Futures markets, as these provide the ideal environments for applying our Smart Money Concepts (SMC) and liquidity-based strategies.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Will I get recordings? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Recordings are included in the ₹16,999 "Mentorship + Recordings" tier. If you choose this plan, you will receive access to your personalized session recordings.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How often are the live sessions? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>We conduct one comprehensive live session every week to review concepts, analyze current market conditions, and evaluate your progress.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is WhatsApp support included? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Yes, all mentorship students receive direct WhatsApp support to ask questions and clear doubts throughout the program.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is Discord access included? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Yes, you will gain access to our private Discord community to interact with other serious traders and discuss market setups.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you provide trading signals? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>No. We do not provide signals. Our objective is to teach you how to analyze the market independently and build your own profitable process.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is there a profit guarantee? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>No. Trading involves substantial risk. We provide education, framework, and guidance. Your success depends on your discipline, execution, and risk management.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What is the difference between the ₹14,999 and ₹16,999 plans? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>The ₹14,999 plan includes all live 1-to-1 mentorship, support, and community access. The ₹16,999 plan includes all of that PLUS access to the recordings of your sessions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 16. FINAL CTA -->
+    <section class="final-cta section-padding text-center">
+        <div class="container">
+            <h2 class="final-cta-title">
+                BUILD YOUR PROCESS.<br>
+                <span class="text-accent">TRADE WITH INTENTION.</span>
+            </h2>
+            <p class="final-cta-subtitle">
+                TFT 3.0 is for traders who want structured market analysis, personalized mentorship and a repeatable approach to execution.
+            </p>
+            
+            <div class="final-actions">
+                <a href="https://wa.me/917729899208?text=Hi,%20I'm%20interested%20in%20TFT%203.0%20mentorship." target="_blank" class="btn btn-primary btn-large glow-btn">
+                    APPLY FOR TFT 3.0 &rarr;
+                </a>
+                <a href="https://wa.me/917729899208" target="_blank" class="btn btn-secondary btn-large">
+                    WHATSAPP: 77298 99208
+                </a>
+            </div>
+            
+            <p class="mt-4 text-accent-light" style="font-weight: 500;">
+                September Batch &bull; 2 Slots Available
+            </p>
+        </div>
+    </section>
+
+    <!-- 17. FOOTER -->
+    <footer class="footer border-top">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo mb-4">
+                        <img src="logo.png" alt="TFT Logo" class="logo-img">
+                        <span class="logo-text">TFT 3.0</span>
+                    </a>
+                    <p class="text-muted">Trade Like Smart Money</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <a href="#program">Program</a>
+                    <a href="#curriculum">Curriculum</a>
+                    <a href="#mentorship">Mentorship</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <a href="https://wa.me/917729899208" target="_blank" class="whatsapp-link">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                        WhatsApp: 77298 99208
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="disclaimer">
+                    Trading involves substantial risk and may not be suitable for every investor.<br>
+                    TFT 3.0 is an educational mentorship program and does not constitute financial advice or a guarantee of trading profits.
+                </p>
+                <p class="copyright">&copy; 2026 TFT 3.0 Mentorship. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky CTA -->
+    <div class="mobile-sticky-cta">
+        <a href="https://wa.me/917729899208?text=Hi,%20I'm%20interested%20in%20TFT%203.0%20mentorship." target="_blank" class="btn btn-primary btn-full glow-btn">
+            SECURE YOUR TFT 3.0 SLOT &rarr;
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
